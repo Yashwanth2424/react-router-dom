@@ -55,8 +55,13 @@ const router = createBrowserRouter([
         element:<Register />
       },
     ]
+    
   }
-])
+],
+{
+  basename: process.env.NODE_ENV === "production" ? "/react-router-dom" : "/"
+}
+)
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <RouterProvider router={router} />
