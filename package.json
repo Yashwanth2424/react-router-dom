@@ -1,6 +1,6 @@
 {
   "name": "react-router-dom",
-  "homepage": "https://Yashwanth2424.github.io/react-router-dom/",
+  "homepage": "https://Yashwanth2424.github.io/Text-Translator-WebPage/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -15,6 +15,7 @@
   "dependencies": {
     "@tailwindcss/vite": "^4.0.7",
     "autoprefixer": "^10.4.20",
+    "axios": "^1.7.9",
     "gh-pages": "^6.3.0",
     "postcss": "^8.5.3",
     "react": "^19.0.0",
